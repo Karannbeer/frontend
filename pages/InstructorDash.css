@@ -1,0 +1,21 @@
+.inst {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courseBtn {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Add space between buttons */
+  margin-bottom: 20px;
+}
+
+.courseContent {
+  margin-top: 30px;
+}
+
+.courseContent h1 {
+  text-align: center;
+}
