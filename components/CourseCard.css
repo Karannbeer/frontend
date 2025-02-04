@@ -1,0 +1,25 @@
+.ccard {
+  height: fit-content;
+  padding: 20px;
+  width: 18rem;
+  margin: 1rem;
+  background-color: #ffffff; /* Ensure the background is set to white */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.card-body .btn {
+  margin: 0; /* Ensure no extra margin around the button */
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.ccard:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance the box-shadow on hover */
+  transform: scale(1.05); /* Scale the card on hover */
+}

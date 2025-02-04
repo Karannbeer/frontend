@@ -1,0 +1,153 @@
+/* Basic styling for footer */
+footer {
+  background-color: skyblue;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer .box {
+  width: 23%;
+  margin-bottom: 20px;
+}
+
+footer .logo h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer .logo span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+footer .logo p {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+footer .icon {
+  font-size: 18px;
+  color: #333;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+footer .link h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+footer .link ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .link ul li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+footer .link ul li:hover {
+  color: #007bff;
+}
+
+footer .last h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+footer .last ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer .last ul li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+footer .last ul li i {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 1200px) {
+  footer .box {
+    width: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .box {
+    width: 100%;
+  }
+
+  footer .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .logo h1 {
+    font-size: 28px;
+  }
+
+  footer .logo p {
+    font-size: 14px;
+  }
+
+  footer .icon {
+    font-size: 20px;
+  }
+}
+
+/* For very small screens (e.g., mobile phones) */
+@media (max-width: 480px) {
+  footer .box {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .logo {
+    margin-bottom: 30px;
+  }
+
+  footer .logo h1 {
+    font-size: 22px;
+  }
+
+  footer .logo span {
+    font-size: 12px;
+  }
+
+  footer .link h3,
+  footer .last h3 {
+    font-size: 16px;
+  }
+
+  footer .link ul li,
+  footer .last ul li {
+    font-size: 12px;
+  }
+
+  footer .icon {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+}
